@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode
 @AllArgsConstructor
 public class Human {
-    String name;
-    String gender;
-    int age;
+    private String name;
+    private String gender;
+    private int age;
 }

@@ -11,17 +11,13 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class City {
-    String cityName;
-    String dateFounded;
-    private List<Human> humans;
+    private String cityName;
+    private String dateFounded;
+    private List<Human> humans = new ArrayList<>();
 
     public City(String cityName, String dateFounded) {
         this.cityName = cityName;
         this.dateFounded = dateFounded;
         this.humans = new ArrayList<>();
-    }
-
-    public void addHuman(Human human) {
-        humans.add(human);
     }
 }

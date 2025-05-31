@@ -18,6 +18,5 @@ public class City {
     public City(String cityName, String dateFounded) {
         this.cityName = cityName;
         this.dateFounded = dateFounded;
-        this.humans = new ArrayList<>();
     }
 }
